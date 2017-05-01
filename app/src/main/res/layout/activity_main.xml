@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_width="match_parent">
+
+  <com.example.wro.walliky.bluetoothLink.View_BluetouthLink
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+  </com.example.wro.walliky.bluetoothLink.View_BluetouthLink>
+
+<com.example.wro.walliky.tabOrientation.View_OrientationTAB
+    android:id="@+id/view_orientationtab_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</com.example.wro.walliky.tabOrientation.View_OrientationTAB>
+
+    <com.example.wro.walliky.capNXT.View_CapNXT
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.example.wro.walliky.capNXT.View_CapNXT>
+
+
+    <com.example.wro.walliky.command_NXT.JoystickView
+        android:id="@+id/joystick_id"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:paddingLeft="44dp"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>
